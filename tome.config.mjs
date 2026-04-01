@@ -1,3 +1,5 @@
+import kyanTheme from "./kyan-theme-plugin.mjs";
+
 export default {
   name: "Kyan",
   logo: "./logo.png",
@@ -78,4 +80,6 @@ export default {
     repo: "kyanexchange/docs",
     branch: "main",
   },
+
+  tomePlugins: [kyanTheme],
 };
